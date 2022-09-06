@@ -1,0 +1,252 @@
+/* header */
+.logo {
+    font-weight: bold;
+    font-family: arial;
+    margin-left: 20px;
+}
+
+.pro {
+    color: red;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    margin: auto;
+    width: 60%;
+    margin: -10px;
+}
+
+.navbar ul {
+    text-align: center;
+
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 18px;
+    padding: 20px;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.masuk {
+    margin: -10px;
+    margin-right: 20px;
+}
+
+.masuk ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.masuk ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* main */
+
+.gambar {
+    background-image: url("background.jpg");
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 590px;
+}
+
+.people {
+    display: flex;
+    justify-content: center;
+    margin: -90px;
+}
+
+.sectionParagraph {
+    padding: 20px 0px;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.button {
+    text-align: center;
+    margin-top: -40px;
+}
+
+.started,
+.pricing {
+    display: inline-block;
+    margin: 20px;
+}
+
+.pricing h3 a {
+    text-decoration: none;
+    color: #333;
+    border-radius: 50px;
+    border: 1px solid;
+    padding: 15px;
+}
+
+.pricing h3 a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
+.started h3 a {
+    text-decoration: none;
+    color: #333;
+    border-radius: 50px;
+    border: 1px solid;
+    padding: 15px;
+
+}
+
+.started h3 a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* article */
+
+article {
+    margin-top: 100px;
+}
+
+.about {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.container2 {
+    float: left;
+}
+
+.artikel {
+    float: left;
+    width: 50%
+}
+
+.artikel h2,
+p {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.artikel p {
+    line-height: 30px;
+    color: #666;
+}
+
+.angka {
+    display: flex;
+}
+
+.angka p {
+    margin-top: -20px;
+    margin-left: 22px;
+    font-size: 12px;
+    color: black;
+}
+
+.angka h2 {
+    margin-left: 48px;
+    font-size: 30px;
+}
+
+.gambar2 {
+    float: right;
+    width: 30%;
+}
+
+.gambar2 img {
+    weight: 280px;
+    height: 280px;
+    border-radius: 20px;
+    margin-left: -90px;
+}
+
+/* micro clearfix */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+/* footer */
+
+.container3 {
+    background-color: #e2e2e2;
+    margin-top: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+.footer {
+    display: flex;
+    justify-content:space-around;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.footer ul li {
+    list-style-type: none;
+    line-height: 40px;
+    font-size: 15px;
+    color: #666;
+}
+
+.footerbottom {
+    display: flex;
+    justify-contetnt:space-between;
+}
+
+.footerbottom ul {
+    display: flex;
+    list-style-type: none;
+}
+.footerbottom ul li a {
+    text-decoration: none;
+    margin: 0px 10px;
+    color: #666;
+}
+
+
+.navlogin {
+    display: flex;
+    align-items: center;
+}
+
+.navlogin i {
+    margin-right: 50px;
+}
+
+.logo2 {
+    margin: auto;
+    color: #666;
+}
